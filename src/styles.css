@@ -51,7 +51,6 @@ button {
     top: 60px;
     left: 70px;
 }
-
 #clear {
     background-color: rgb(172, 57, 57);
     position: relative;
@@ -81,7 +80,6 @@ button:hover {
     border: 0.1px solid white;
 }
 
-
 #display {
     display: flex;
     justify-content: right;
@@ -91,4 +89,48 @@ button:hover {
     margin-top: -5px;
     margin-bottom: -60px;
     font-size: 25px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 40px 10px;
+    }
+    .numbers {
+        top: 0.3rem;
+        left: -2.1rem;
+    }
+    #zero {
+        width: 66.5%;
+        position: relative;
+        top: 0.3rem;
+        left: -2.1rem;
+    }
+    #decimal {
+        top: 385px;
+        right: 4.6rem;
+    }
+    #equal {
+        right: 0.2rem;
+    }
+    #add {
+        top: 124px;
+        left: 11rem;
+    }
+    #subtract {
+        top: 124px;
+        left: 2.3rem;
+    }
+    #clear {
+        top: 125px;
+        left: -2.1rem;
+    }
+    #divide {
+        top: 4.05rem;
+        left: 6.65rem;
+    }
+    #multiply {
+        top: 4.05rem;
+        left: 6.65rem;
+    }
+
 }

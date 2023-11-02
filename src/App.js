@@ -35,6 +35,7 @@ function App() {
   const handleAC = () => {
     setDisplay("0");
   };
+
   const handleC = () => {
     const array = display.split("");
     const lastElement = array.slice(0, display.length - 1);
